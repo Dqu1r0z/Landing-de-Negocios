@@ -13,43 +13,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik+Microbe&display=swap" rel="stylesheet">
     <title>Paranoia Company | LIBRETAS</title>
 </head>
 <body>
     <header>
-        <!-- Posible navbar
-            <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./css/logo-paranoia.jpg" alt="Logo" width="30" height="37" class="d-inline-block align-text-top" color="white">
-                Paranoia Co.
-              </a>
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">¿Quienes somos?</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Catalogo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Contactanos</a>
-                </li>
-              </ul>
-            </div>
-          </nav-->
           <nav class="navbar">
                 <ul>
-                    <li><a class="navbar-brand" href="#">
+                    <li><a class="navbar-brand" href="https://jolly-lebkuchen-071e81.netlify.app/">
                     <img src="./css/logo-paranoia.jpg" alt="Logo" width="30" height="37" class="d-inline-block align-text-cemter" color="white"></a></li>
-                    <li><a class="inicio" href="#home">Inicio</a></li>
-                    <li><a href="#news">¿Quienes somos?</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a class="inicio" href="#home">INICIO</a></li>
+                    <li><a href="#quienes-somos">¿Quienes somos?</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#catalogo">Catalogo</a></li>
                   </ul>
           </nav>
     </header>
@@ -58,20 +33,22 @@
             <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/libretas-de-hallowen1-c6cfbb0f49676a769e16676722583035-640-0.jpg" alt="img-jumbotron">
         </div>
         <div class="intro">
+            <p class="oferta">Aprovecha nuestras ofertas <a href="#">| ¡Ofertas de black friday aqui!</a></p>
             <h1>"Por un mundo con más artistas"</h1>
-            <p>Hacemos libretas chulas que te inspiren a crear ❤</p>
+            <p class="frase">Hacemos libretas chulas que te inspiren a crear ❤</p>
             <div>
                 <form name="email" method="POST" data-netlify="true">
                     <div class="input-email">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
                     </div>
+                    <p class="tyc">Te contactaremos lo mas pronto posible, por favor ten paciencia. Terminos y condiciones</p>
                     <button type="button" class="btn btn-dark">Enviar</button>
-                    <p>Te contactaremos lo mas pronto posible, por favor ten paciencia. Terminos y condiciones</p>
+                    
                 </form>
             </div>
         </div>  
     </section>
-    <section class="catalogo">
+    <section class="catalogo" id="catalogo">
         <div class="intro-catalogo">
             <h1>Conoce nuestras libretas</h1>
             <p>blancas, rayadas, o con puntos, ¡Tenemos los que buscas!</p>
@@ -80,30 +57,35 @@
             <div class="jack">
                 <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/mockup-jack1-f46ca15b36ccf6f49d16674434351113-640-0.jpg" alt="jack">
                 <p> Rey Esqueleto</p>
+                <p class="frase1">"Nadie puede negar que soy un tipo singular, un talento por demás sin igual, si se trata de sustos en la oscuridad, nadie hay que me pueda derrotar"</p>
                 <p>Modelos disponibles: Blanco, Raya, Cuadro, Puntos</p>
                 <p>$200mxn</p>
             </div>
             <div class="baphomet">
                 <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/baphomet-o11-54ab6512dac6ee71ec16656247010854-640-0.jpg" alt="baphomet">
                 <p>Libreta Baphomet</p>
+                <p class="frase1">"Diseñamos esta ilustración hace 1 año, antes de que paranoia cerrara por primera vez, y desde ese momento hasta ahora ha sido una guía en el camino de paranoia, dicen que te aporta un estilo asombroso al traerla"</p>
                 <p>Modelos disponibles: Blanco, Raya, Cuadro, Puntos</p>
                 <p>$200mxn</p>
             </div>
             <div class="ouija">
                 <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/ouija-baph-011-25db885d98d7b0089116685722843450-640-0.jpg" alt="ouija">
                 <p>Libreta Ouija</p>
+                <p class="frase1">Tenemos un obsesivo cuidado con la ilustración, por que buscamos que te inspire a crear y dejar todas tus ideas en ese papel, Las ilustraciones fueron pensadas en base a un tipo de personalidad ¡Busca la que te haga decir “Si soy”!</p>
                 <p>Modelos disponibles: Blanco, Raya, Cuadro, Puntos</p>
                 <p>$200mxn</p>
             </div>
             <div class="ouija-rosa">
                 <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/ouija-011-bd5f1017d5b71aa02616658050451989-640-0.jpg" alt="ouija-rosa">
                 <p>Libreta Ouija Rosa</p>
+                <p class="frase1">"Nuestra guía para invocar demonios necesitaba su versión práctica y fue creada en una madrugada de luna llena"</p>
                 <p>Modelos disponibles: Blanco, Raya, Cuadro, Puntos</p>
                 <p>$200mxn</p>
             </div>
             <div class="dino">
                 <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/431/314/products/dino-011-85072dba44c2d3dcfb16657603774760-640-0.jpg" alt="dino">
                 <p>Libreta Dinosaurio</p>
+                <p class="frase1">Tenemos un obsesivo cuidado con la ilustración, por que buscamos que te inspire a crear y dejar todas tus ideas en ese papel, Las ilustraciones fueron pensadas en base a un tipo de personalidad ¡Busca la que te haga decir “Si soy”!</p>
                 <p>Modelos disponibles: Blanco, Raya, Cuadro, Puntos</p>
                 <p>$200mxn</p>
             </div>      
@@ -115,17 +97,20 @@
         <h2>¿Te gustaria una libreta personalizada?</h2>
         <p>Porque sabemos que te gusta tener tu propio estilo, ahora puedes llevar tu estilo a todas partes con tu libreta personalizada, ya sea un gatito o la foto de tu novi@. En Paranoia Company, lo hacemos posible</p>
         <div class="input-libreta">
-            <form name="libreta" method="POST" data-netlify="true"><label for="text">Cuentanos, ¿Que tienes en mente?</label>
-            <input type="text" class="css-input" />
+            <form name="libreta" method="POST" data-netlify="true"><label for="text"></label>
+                <textarea name="message" placeholder="¿Que tienes en mente?"></textarea>
+            <p>
+                <button type="button" class="btn btn-dark">Enviar</button>
+            </p>
             </form>
         </div>
-        <div class="quienes-somos">
+        <div class="quienes-somos" id="quienes-somos">
             <h1>¿Quienes somos?</h1>
             <p>
                 Somos aquellos viajeros sin rumbo, ese loco que todos miran, aquellos que no duermen por pensar en todo y en nada, somos los artistas que toman riesgos, que no tienen miedo. Hemos llegado para quedarnos. Y solo seguiremos creciendo.
             </p>
         </div>
-        <div class="contactanos">
+        <div class="contacto" id="contacto">
             <h2>Te gustaria alguna libreta? Quieres mandarnos un mensaje? o Tal vez solo escribir por escribir, con gusto te leeremos</h2>
             <form name="contact" method="POST" data-netlify="true">
                 <p>
@@ -141,14 +126,13 @@
                     <label>Message: <textarea name="message"></textarea></label>
                 </p>
                 <p>
-                  <button type="submit">Send</button>
-                </p>
+                    <button type="button" class="btn btn-dark">Enviar</button>
               </form>
               
         </div>
     </section>
     <footer>
-        <a href="https://www.instagram.com/paranoia.company/?next=%2Fparanoiabooks%2F">Instragram</a>
+        <a href="https://www.instagram.com/paranoia.company/?next=%2Fparanoiabooks%2F" target="_blank">Instagram</a>
         <p>5510203040</p>
         <p>paranoia.books@gmail.com</p>
         <p>© 2021 Paranoia Company. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos.</p>
