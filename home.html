@@ -61,7 +61,7 @@
             <h1>"Por un mundo con más artistas"</h1>
             <p>Hacemos libretas chulas que te inspiren a crear ❤</p>
             <div>
-                <form>
+                <form name="email" method="POST" data-netlify="true">
                     <div class="input-email">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
                     </div>
@@ -115,8 +115,36 @@
         <h2>¿Te gustaria una libreta personalizada?</h2>
         <p>Porque sabemos que te gusta tener tu propio estilo, ahora puedes llevar tu estilo a todas partes con tu libreta personalizada, ya sea un gatito o la foto de tu novi@. En Paranoia Company, lo hacemos posible</p>
         <div class="input-libreta">
-            <label for="text">Cuentanos, ¿Que tienes en mente?</label>
+            <form name="libreta" method="POST" data-netlify="true"><label for="text">Cuentanos, ¿Que tienes en mente?</label>
             <input type="text" class="css-input" />
+            </form>
+        </div>
+        <div class="quienes-somos">
+            <h1>¿Quienes somos?</h1>
+            <p>
+                Somos aquellos viajeros sin rumbo, ese loco que todos miran, aquellos que no duermen por pensar en todo y en nada, somos los artistas que toman riesgos, que no tienen miedo. Hemos llegado para quedarnos. Y solo seguiremos creciendo.
+            </p>
+        </div>
+        <div class="contactanos">
+            <h2>Te gustaria alguna libreta? Quieres mandarnos un mensaje? o Tal vez solo escribir por escribir, con gusto te leeremos</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Tu nombre: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Tu Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Tu Numero: <input type="phone" name="Phone"></label>
+                </p>
+                <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+              
         </div>
     </section>
     <footer>
