@@ -1,9 +1,51 @@
 nav{
-
-    font-style: bold;
-    
+    background-color: #691002;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #691002;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    transition: all 0.5s linear;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar-brand {
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: white;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .inicio {
+    background-color: #AD1A03;
+  }
+  
 .jumbotron {
     background-color: black;
     display: grid;
@@ -37,12 +79,14 @@ nav{
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    background-color: teal;
+    background-color: #000;
+    color: darkgray;
 
 }
 .img-catalogo {
-    background-color: teal;
+    background-color: #000;
     padding-bottom: 10px;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -51,21 +95,58 @@ nav{
 }
 
 .img-catalogo div{
-    background-color: rgb(16, 94, 94);
-    border: 1px solid rgb(44, 185, 185);
+    background-color: #BA1C04;
+    border: 1px solid #FA2605;
     border-radius: 10px;
     padding: 0%;
     text-align: center;
     font-size: 24px;
     font-style: italic;
-    color: rgb(2, 2, 2);
+    color: darkgray;
+    overflow:hidden;
 }
 
 .img-catalogo img{
     width: 668px;
     border-radius: 10px;
     padding:0%;   
+    
 }
+
+.img-catalogo p{
+    padding-top: 20px;
+}
+.jack img:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.baphomet img:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.ouija img:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.ouija-rosa img:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.dino{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dino img:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+
 
 .Adicionales {
     background-color: #e0c6c69a;
@@ -73,17 +154,17 @@ nav{
     flex-direction: column;
     text-align: center;
     padding-bottom: 10px;
-    transition: all 0.5s linear;
+    transition: all 2s linear;
+    transition-delay: 1s;
 }
 
 .Adicionales:hover{
-    background-color: #c94848;
-    color: violet;
-    border: 1px solid #e8e6e6;
-
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 2s;
     transition-timing-function: linear;
+
+    background-color: #941603;
+    color: rgba(255, 255, 255, 0.801);
 }
 
 .css-input {
