@@ -1,0 +1,82 @@
+body{
+    font-family:sans-serif
+}
+
+nav{
+
+    font-style: bold;
+    
+}
+
+.jumbotron {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto)
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: darkgray;
+    padding-top: 100px;
+}
+
+.input-email {
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+.input-email input{
+    background-color: darkgray;
+}
+
+.input-email p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.intro-catalogo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: teal;
+
+}
+.img-catalogo {
+    background-color: teal;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto)
+    
+}
+
+.img-catalogo div{
+    background-color: rgb(16, 94, 94);
+    border: 1px solid rgb(44, 185, 185);
+    border-radius: 10px;
+    padding: 0%;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(2, 2, 2);
+}
+.img-catalogo img{
+    width: 668px;
+    border-radius: 10px;
+    padding:0%;   
+}
+
+.Adicionales {
+    background-color: #e0c6c69a;
+}
+footer {
+    background-color: black;
+    padding: 100px;
+    text-align: justify;
+    text-align: center;
+
+}
