@@ -110,7 +110,7 @@ ul {
 
 }
 
-.input-email:active{
+.input-email:hover{
     background-color: #c6c6c6;  
 }
 
@@ -141,7 +141,7 @@ ul {
 
 .img-catalogo div{
     background-color: #e5144b;
-    border: 1px solid #e5144b;
+    border: 1px solid #f6f2c8;
     border-radius: 10px;
     padding: 0%;
     text-align: center;
@@ -217,6 +217,11 @@ ul {
     color: rgba(255, 255, 255, 0.801);
 }
 
+.Adicionales p{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
 .input-libreta {
     display: flex;
     flex-direction: column;
@@ -225,8 +230,9 @@ ul {
 
 textarea{
     width: 1000px;
-    border-radius: 25px;
-    box-shadow: 10px #211d27;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    box-shadow: 20px #211d27;
     text-align: center;
 }
 
@@ -234,29 +240,40 @@ textarea{
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
-}
-.css-input {
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
-    font-size: 15px;
-    border-width: 1px;
-    border-color: #f42828;
-    background-color: hsla(0, 4%, 91%, 0.521);
-    color: #c94848;
-    border-style: hidden;
-    border-radius: 5px;
-    box-shadow: 0px 0px 7px rgba(66,66,66,.56);
-    text-shadow: 0px 0px 1px rgba(66,66,66,.26);
-}
-.css-input:focus {
-    outline:none;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
+.contacto input{
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    box-shadow: 20px #211d27;
+}
+
+#email {
+    margin-left: 14px;
+}
+
+.buenfin{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 30px;
+    font-style: italic;
+}
 footer {
     background-color: black;
-    padding: 100px;
+    padding: 50px;
     text-align: justify;
     text-align: center;
 
+}
+
+.instagram{
+    text-decoration:none;
+    color: #211d27;
+    padding-bottom: 16px;
+}
+
+.instagram:hover{
+    color: #211d27;
 }
