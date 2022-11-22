@@ -313,6 +313,10 @@ footer {
         border: 0 0 0 0;
     }
 
+    .jumbotronv img{
+        width: 100%;
+    }
+    
     .intro{
         border-bottom: 0;
     }
