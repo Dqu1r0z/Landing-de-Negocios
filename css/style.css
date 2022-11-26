@@ -297,11 +297,10 @@ footer {
 
 }
 
-@media screen and (max-width:640px) {
-    
-}    
-
-
+@media screen and (max-width:640px) {  
+    li a{
+        padding: 5px 0 5px 0;
+    }
     .jumbotron{
         display: flex;
         flex-direction: column;
@@ -351,5 +350,26 @@ footer {
     }
 }
 
+@media screen and (min-width:641px) and (max-width:1024px){
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
+    }
 
-@media screen and ()
+    .jumbotron img{
+        width: 100%;
+    }
+
+    .intro{
+        border-bottom: 0;
+    }
+
+    .img-catalogo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    textarea{
+        width: 350px;
+    }
+} 
